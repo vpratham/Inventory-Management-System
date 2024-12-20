@@ -1,14 +1,9 @@
 import pyrebase
 
 firebaseConfig = {
-  "apiKey": "AIzaSyANZeGyzfbkBFQDosbt4aQzO2CcjJiDhjE",
-  "authDomain": "se-inventory-management-system.firebaseapp.com",
-  "databaseURL": "https://se-inventory-management-system-default-rtdb.firebaseio.com",
-  "projectId": "se-inventory-management-system",
-  "storageBucket": "se-inventory-management-system.appspot.com",
-  "messagingSenderId": "582543037725",
-  "appId": "1:582543037725:web:a4c9278b4c04c3d5e53df4",
-  "measurementId": "G-H062P4186M"
+  '''
+    Firebase Configuration Information
+  '''
 }
 
 firebase = pyrebase.initialize_app(firebaseConfig)
